@@ -1,0 +1,19 @@
+# JSON2Lucid - Format converter requirements
+
+# Core dependencies
+lxml>=4.9.3         # Enhanced XML processing capabilities for GraphML handling
+pillow>=10.0.0      # Image processing for icon creation and PlantUML diagram generation
+requests>=2.31.0    # Used for HTTP requests in create_icon.py
+typing-extensions>=4.7.1  # Extended typing capabilities for Python <3.11
+
+# GUI dependencies
+tkinter             # Core GUI library (usually included with Python)
+
+# Development dependencies
+black>=23.7.0       # Code formatting
+flake8>=6.1.0       # Code lintingd
+isort>=5.12.0       # Import sorting
+mypy>=1.4.1         # Static type checking
+pytest>=7.4.0       # Testing framework
+pytest-cov>=4.1.0   # Test coverage reporting
+pylint>=2.17.5      # Advanced code analysis
